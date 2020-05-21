@@ -365,12 +365,13 @@ body {
 --------------------------------------------------------------*/
 
   .mainHeader{
-    font-size: 8vw;
+    font-size: 7vw;
     font-family: headerFont, sans-serif;
     padding-top: 5rem;
     width: 100%;
     text-align: center;
     font-weight: 700;
+    overflow: scroll;
     
   }
 
