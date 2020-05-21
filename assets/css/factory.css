@@ -111,7 +111,7 @@
 #mainFactory {
   width: 150px;
   height: 100px;
-  background-color: #CFB499;
+  background-color: rgb(244, 244, 244);
   position: absolute;
   top: 195px;
   left: 91px;
@@ -184,7 +184,7 @@
 #chim1 {
   width: 25px;
   height: 80px;
-  background-color: #E2C4A5;
+  background-color: rgb(244, 244, 244);
   position: absolute;
   top: 115px;
   left: 155px;
@@ -193,7 +193,7 @@
 #chim2 {
   width: 25px;
   height: 102px;
-  background-color: #E2C4A5;
+  background-color: rgb(244, 244, 244);
   position: absolute;
   top: 93px;
   left: 198px;
