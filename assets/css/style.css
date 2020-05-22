@@ -3,17 +3,29 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --mainBackground: #c8d6e5;
-  --mainHeaderColor: #000;
+  --mainBackground: #000;
+  --mainHeaderColor: #fff;
   --babyBlue: #a7c5eb;
   /* --navBarColor: #2e3f52; */
+  --navBarColor: var(--fourthColor);
+  --secondaryColor: #b4c1ce;
+  --thirdColor: #dee6ef;
+  --fourthColor: #000;
+  --egg-white: #EDF1F6;
+  --bright-blue: rgb(218, 235, 255);
+  --font-color: #fff;
+
+  /* --mainBackground: #c8d6e5;
+  --mainHeaderColor: #000;
+  --babyBlue: #a7c5eb;
+   --navBarColor: #2e3f52;
   --navBarColor: var(--fourthColor);
   --secondaryColor: #b4c1ce;
   --thirdColor: #dee6ef;
   --fourthColor: #35495e;
   --egg-white: #EDF1F6;
   --bright-blue: rgb(218, 235, 255);
-  --font-color: #000;
+  --font-color: #000; */
 }
 
 body {
@@ -374,14 +386,14 @@ body {
 --------------------------------------------------------------*/
 
   .mainHeader{
-    font-size: 5rem;
+    font-size: 8vw;
     font-family: headerFont, sans-serif;
     padding-top: 5rem;
     width: 100%;
     text-align: center;
     font-weight: 700;
     overflow-x: scroll;
-    color: var(--mainHeaderColor)
+    color: var(--mainHeaderColor);
   }
 
   .subHeader{
@@ -439,6 +451,9 @@ body {
   .underline-bold{
     border-bottom: 3px solid var(--navBarColor);
   }
+  .underline-bold-white{
+    border-bottom: 3px solid var(--egg-white);
+  }
 
   .left-subtitle{
     width: 85%;
@@ -473,6 +488,7 @@ body {
   }
 
   .backdrop-circle{
+    color: #000;
     border-radius:100px;
     background-color: var(--egg-white);
     padding: 15px;
