@@ -532,10 +532,9 @@ body {
   @media screen and (max-width: 800px){
     .mainHeader{
       font-size: 10vw;
-      padding-top: 25vh;
     }
     .headerContainer{
-      min-height: 85vh;
+      min-height: 90vh;
     }
     .subHeader{
       font-size: 5vw;
