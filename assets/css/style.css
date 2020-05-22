@@ -508,7 +508,9 @@ body {
   .caption{
     padding-top: 1rem;
   }
-
+  .services{
+    padding-top: 2%;
+  }
   .portfolio{
     height: 50vh;
   }
