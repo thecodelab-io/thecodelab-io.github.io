@@ -517,9 +517,7 @@ body {
   .services{
     padding-top: 3%;
   }
-  .portfolio{
-    height: 50vh;
-  }
+
 
   .item-holder{
     text-align: center;
@@ -540,3 +538,53 @@ body {
       font-size: 5vw;
     }
   }
+
+
+
+
+  /*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio{
+  /* padding: 80px 0; */
+  max-height: 70vh;
+  /* background: url("../img/cta-bg.jpg") no-repeat; */
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  background-color: var(--fourthColor);
+  color: var(--egg-white);
+}
+
+
+
+.owl-nav{
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  max-height: 4.25rem;
+  color: var(--egg-white);
+  background-color: var(--fourthColor);
+}
+
+
+.portfolio-item{
+  font-family: subHeaderFont, sans-serif;
+}
+
+.portfolio-text{
+  font-weight: 800;
+}
+
+video{
+  background-color: var(--fourthColor);
+  width: 80%;
+}
+
+.owl-dots{
+  background-color: var(--fourthColor);
+}
+
+.owl-carousel{
+  background-color: var(--fourthColor);
+}

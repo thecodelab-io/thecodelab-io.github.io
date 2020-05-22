@@ -129,43 +129,47 @@
   }
 
   // Back to top button
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
-    } else {
-      $('.back-to-top').fadeOut('slow');
-    }
-  });
+  // $(window).scroll(function() {
+  //   if ($(this).scrollTop() > 100) {
+  //     $('.back-to-top').fadeIn('slow');
+  //   } else {
+  //     $('.back-to-top').fadeOut('slow');
+  //   }
+  // });
 
-  $('.back-to-top').click(function() {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
-    return false;
-  });
+  // $('.back-to-top').click(function() {
+  //   $('html, body').animate({
+  //     scrollTop: 0
+  //   }, 1500, 'easeInOutExpo');
+  //   return false;
+  // });
 
-  // Initiate the venobox plugin
-  $(window).on('load', function() {
-    $('.venobox').venobox();
-  });
+  // // Initiate the venobox plugin
+  // $(window).on('load', function() {
+  //   $('.venobox').venobox();
+  // });
 
   // jQuery counterUp
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
+  // $('[data-toggle="counter-up"]').counterUp({
+  //   delay: 10,
+  //   time: 1000
+  // });
 
   // Initiate venobox lightbox
   $(document).ready(function() {
     $('.venobox').venobox();
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
+  // portfolio carousel (uses the Owl Carousel library)
+  $(".portfolio-carousel").owlCarousel({
+    // autoplay: true,
     loop: true,
-    items: 1
+    items: 1,
+    center: true,
+    nav: true,
+    // dots: true,
+    mouseDrag: true,
+    touchDrag: true,
   });
 
   // Initi AOS
