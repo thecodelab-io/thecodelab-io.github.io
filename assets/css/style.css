@@ -397,7 +397,7 @@ body {
     width: 100%;
     text-align: center;
     font-weight: 700;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     color: var(--mainHeaderColor);
   }
 
