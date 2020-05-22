@@ -171,6 +171,7 @@
     mouseDrag: true,
     touchDrag: true,
   });
+  $('.owl-video-play-icon').remove();
 
   // Initi AOS
   AOS.init({
