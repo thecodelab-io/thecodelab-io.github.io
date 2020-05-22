@@ -4,8 +4,11 @@
 --------------------------------------------------------------*/
 :root {
   --mainBackground: #c8d6e5;
-  --navBarFont: #82ccdd;
-  --secondaryColor: #60a3bc;
+  --mainHeaderColor: #000;
+  --navBarFont: #a7c5eb;
+  --navBarColor: #23313f;
+  --secondaryColor: #b4c1ce;
+  --thirdColor: #dee6ef;
 }
 
 body {
@@ -32,11 +35,11 @@ body {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background-color: #000;
+    background-color: var(--navBarColor);
   }
   
   #header.header-scrolled {
-    background: #000;
+    background: var(--navBarColor);
     height: 2.75rem;
   }
   
@@ -372,7 +375,7 @@ body {
     text-align: center;
     font-weight: 700;
     overflow-x: scroll;
-    
+    color: var(--mainHeaderColor)
   }
 
   .subHeader{
@@ -394,7 +397,7 @@ body {
   }
   .spacer2{
     /* background-color: var(--secondaryColor); */
-    height: 10vh;
+    height: 15vh;
   }
 
   .regular{
@@ -414,3 +417,12 @@ body {
     font-family: headerFont, sans-serif;
     font-size: 1rem;
   }
+
+  .contact{
+    background-color: var(--secondaryColor);
+  }
+
+  .bright{
+    background-color: var(--thirdColor);
+  }
+  
