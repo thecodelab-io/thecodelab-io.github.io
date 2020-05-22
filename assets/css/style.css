@@ -390,7 +390,11 @@ body {
 --------------------------------------------------------------*/
   .spacer1{
     /* background-color: var(--secondaryColor); */
-    height: 10rem;
+    height: 20vh;
+  }
+  .spacer2{
+    /* background-color: var(--secondaryColor); */
+    height: 10vh;
   }
 
   .regular{
@@ -398,3 +402,15 @@ body {
     margin: 0;
   }
 
+  .left-title{
+    padding-left: 5%;
+    font-family: headerFont, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .left-subtitle{
+    padding-left: 5%;
+    font-family: headerFont, sans-serif;
+    font-size: 1rem;
+  }
