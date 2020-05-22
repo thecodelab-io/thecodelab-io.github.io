@@ -29,8 +29,9 @@
     <link href="assets/css/factory.css" rel="stylesheet">
     
 </head>
+
 <body>
-  <div id="preloader"></div>
+  
     <header id="header" class="fixed-top d-flex align-items-center">
       <div class="d-flex align-items-center">
 
@@ -44,7 +45,7 @@
           <ul>
             <li class="active"><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Our Services</a></li>
+            <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <!-- <li class="drop-down"><a href="#strategy">About Us</a></li>
             <li class="drop-down"><a href="#strategy">Our Services</a> -->
@@ -62,7 +63,7 @@
         <!-- .nav-menu -->
         </div>
       </header>
-      <span  id="home">
+      <section  id="home">
         <div style="min-height: 100vh;">
           <div class="row regular" data-aos="fade-out">
             
@@ -115,32 +116,32 @@
             </div>
           </div>
           <div class="row regular" >
-            <p class="subHeader">We build excellent software, <span class="underline-bold">fast</span>.</p>
+            <p class="subHeader">Software down to the <span class="underline-bold">science</span>.</p>
           </div>
         </div>
-    </span>
-    <span  id="about">
+      </section>
+    <section  id="about">
       <div class="col regular bright"data-aos="fade-up">
         <div class="spacer3"></div>
-        <h2 class="left-title" data-aos="fade-out"><span >About Us</span></h2>
+        <h2 class="left-title" data-aos="fade-out"><span >Excellent Software, Fast Delivery</span></h2>
         <div class="spacer4"></div>
-        <h4 class="left-subtitle" data-aos="fade-right">We build custom solutions for a series of web-related needs. With over 
+        <h4 class="left-subtitle" data-aos="fade-right">We build <span class="underline">custom solutions</span> for a series of web-related needs. With over 
           5 years of experience in web development and website management, we specialize in crafting the designs you desire and getting them launched efficiently.
         </h4>
         <br/>
         <h4 class="left-subtitle" data-aos="fade-right">
-          Our team of in-house developers will work hard to ensure a timely delivery of frequent updates and demos to keep you in the loop on your project's progress.
-          We belive communication and planning is key. At the Code Lab, we have web development down to a science.
+          Our team of <span class="underline">in-house developers</span> will work hard to ensure the timely delivery of frequent updates and demos to keep you in the loop on your project's progress.
+          We believe communication and planning is key. At the Code Lab, we have development down to a science.
         </h4>
         <div class="spacer3"></div>
 
         </div>
 
-    </span>
-    <span id="services">
+      </section>
+    <section id="services">
         <div class="col regular normal"data-aos="fade-up">
           <div class="spacer3"></div>
-          <h2 class="left-title" data-aos="fade-out"><span >Our Services</span></h2>
+          <h2 class="left-title" data-aos="fade-out"><span >Services</span></h2>
           <!-- <h4 class="left-subtitle" data-aos="fade-out">
             Our services include:
           </h4> -->
@@ -168,16 +169,16 @@
           <div class="row center" data-aos="fade-up">
             <div class="col">
               <div>
-                <i class="icofont-dashboard-web icofont-5x backdrop-circle" ></i>
+                <i class="icofont-dashboard-web icofont-5x backdrop-circle" style="color: #c23616;"></i>
                 <p class="caption">React.js & Node.js<br/>Web Development</p>
               </div>
             </div>
             <div class="col">
-              <i class="icofont-code icofont-5x backdrop-circle"></i>
+              <i class="icofont-code icofont-5x backdrop-circle" style="color: #0097e6;"></i>
               <p class="caption">HTML, CSS, & Javascript<br/>Web Development</p>
             </div>
             <div class="col">
-              <i class="icofont-cubes icofont-5x backdrop-circle"></i>
+              <i class="icofont-cubes icofont-5x backdrop-circle" style="color: #e1b12c"></i>
               <p class="caption">DNS Management<br/>Web Services</p>
             </div>
           </div>
@@ -185,11 +186,11 @@
           <div class="spacer3"></div>
           <div class="row center" data-aos="fade-up">
             <div class="col">
-              <i class="icofont-web icofont-5x backdrop-circle"></i>
+              <i class="icofont-web icofont-5x backdrop-circle" style="color: #44bd32"></i>
               <p class="caption">Domain Acquisition<br/>Web Services</p>
             </div>
             <div class="col">
-              <i class="icofont-hard-disk icofont-5x backdrop-circle"></i>
+              <i class="icofont-hard-disk icofont-5x backdrop-circle" style="color: #8c7ae6"></i>
               <p class="caption">Web Hosting Management<br/>Web Services</p>
             </div>
           </div>
@@ -197,8 +198,8 @@
         
         <div class="spacer2"></div>
       </div>
-    </span>
-    <!-- <span>
+    </section>
+    <!-- <section>
       <div class="dark text-white" data-aos="fade-up" >
         <div class="spacer5" ></div>
         <div class="spacer5" id="portfolio"></div>
@@ -297,10 +298,10 @@
         <!-- <div class="spacer5"></div> -->
         <!-- End carousel row -->
 
-      </div>
-    </span>
+      <!-- </div> -->
+    <!-- </section> -->
 
-    <div class="col regular contact darker" id="contact">
+    <section class="col regular contact darker" id="contact">
       <div class="spacer4"></div>
       <h2 class="left-title" data-aos="fade-up" ><span >Contact Us</span></h2>
       <div class="spacer5"></div>
@@ -309,7 +310,7 @@
 
       <h3 class="left-subtitle" data-aos="fade-up"><span style="font-weight: bold;" >Send us an email at:</span> thecodelab.io@gmail.com</h3>
       <div class="spacer1"></div>
-    </div>
+    </section>
 
 
   <!-- <script type="text/javascript" src="js/logica.js"> -->
@@ -327,6 +328,7 @@
   
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <div id="preloader"></div>
 </body>
 
 </html>
