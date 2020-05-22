@@ -387,6 +387,9 @@ body {
 # Header Font Animation
 --------------------------------------------------------------*/
 
+  .headerContainer{
+    min-height: 100vh;
+  }
   .mainHeader{
     font-size: 5rem;
     font-family: headerFont, sans-serif;
@@ -530,6 +533,9 @@ body {
     .mainHeader{
       font-size: 10vw;
       padding-top: 20vh;
+    }
+    .headerContainer{
+      min-height: 80vh;
     }
     .subHeader{
       font-size: 5vw;
