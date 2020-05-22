@@ -5,17 +5,22 @@
 :root {
   --mainBackground: #c8d6e5;
   --mainHeaderColor: #000;
-  --navBarFont: #a7c5eb;
-  --navBarColor: #2e3f52;
+  --babyBlue: #a7c5eb;
+  /* --navBarColor: #2e3f52; */
+  --navBarColor: var(--fourthColor);
   --secondaryColor: #b4c1ce;
   --thirdColor: #dee6ef;
   --fourthColor: #35495e;
+  --egg-white: #EDF1F6;
+  --bright-blue: rgb(218, 235, 255);
+  --font-color: #000;
 }
 
 body {
     /* font-family: "Open Sans", sans-serif; */
     font-family: subHeaderFont,sans-serif;
     background-color: var(--mainBackground);
+    color: var(--font-color);
   }
 
 @font-face {
@@ -91,8 +96,8 @@ body {
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid var(--navBarFont);
-    border-top-color: var(--navBarFont);
+    border: 6px solid var(--babyBlue);
+    border-top-color: var(--babyBlue);
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -163,7 +168,7 @@ body {
     height: 2px;
     bottom: 3px;
     left: 25px;
-    background-color: var(--navBarFont);
+    background-color: var(--babyBlue);
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -175,7 +180,7 @@ body {
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: var(--navBarFont);
+    color: var(--babyBlue);
     text-decoration: none;
   }
   
@@ -214,7 +219,7 @@ body {
   }
   
   .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-    color: var(--navBarFont);
+    color: var(--babyBlue);
   }
   
   .nav-menu .drop-down > a:after {
@@ -309,7 +314,7 @@ body {
   }
   
   .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-    color: var(--navBarFont);
+    color: var(--babyBlue);
     text-decoration: none;
   }
   
@@ -426,7 +431,10 @@ body {
   }
   
   .underline{
-    border-bottom: 2px solid var(--navBarColor);
+    border-bottom: 2px solid var(--fourthColor);
+  }
+  .underline-white{
+    border-bottom: 2px solid var(--egg-white);
   }
   .underline-bold{
     border-bottom: 3px solid var(--navBarColor);
@@ -449,7 +457,15 @@ body {
   }
   
   .normal{
-    background-color: var(--thirdColor);
+    background-color: var(--mainBackground);
+  }
+
+  .dark{
+    background-color: var(--fourthColor);
+  }
+
+  .text-white{
+    color: var(--egg-white);
   }
   
   .center{
@@ -458,10 +474,22 @@ body {
 
   .backdrop-circle{
     border-radius:100px;
-    background-color: #EDF1F6;
+    background-color: var(--egg-white);
     padding: 15px;
   }
 
   .caption{
     padding-top: 1rem;
+  }
+
+  .portfolio{
+    height: 50vh;
+  }
+
+  .item-holder{
+    text-align: center;
+  }
+  
+  .indicator{
+    padding-top: 20%;
   }
