@@ -3,19 +3,19 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --mainBackground: #000;
+  /* --mainBackground: #000;
   --mainHeaderColor: #fff;
   --babyBlue: #a7c5eb;
   /* --navBarColor: #2e3f52; */
-  --navBarColor: var(--fourthColor);
+  /* --navBarColor: var(--fourthColor);
   --secondaryColor: #b4c1ce;
   --thirdColor: #dee6ef;
   --fourthColor: #000;
   --egg-white: #EDF1F6;
   --bright-blue: rgb(218, 235, 255);
-  --font-color: #fff;
+  --font-color: #fff;  */
 
-  /* --mainBackground: #c8d6e5;
+  --mainBackground: #c8d6e5;
   --mainHeaderColor: #000;
   --babyBlue: #a7c5eb;
    --navBarColor: #2e3f52;
@@ -25,7 +25,7 @@
   --fourthColor: #35495e;
   --egg-white: #EDF1F6;
   --bright-blue: rgb(218, 235, 255);
-  --font-color: #000; */
+  --font-color: #000;
 }
 
 body {
