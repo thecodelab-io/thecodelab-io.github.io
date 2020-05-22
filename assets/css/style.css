@@ -18,11 +18,12 @@
   --mainBackground: #c8d6e5;
   --mainHeaderColor: #000;
   --babyBlue: #a7c5eb;
-   --navBarColor: #2e3f52;
+  --navBarColor: #2e3f52;
   --navBarColor: var(--fourthColor);
   --secondaryColor: #b4c1ce;
   --thirdColor: #dee6ef;
   --fourthColor: #35495e;
+  --fifthColor: #283646;
   --egg-white: #EDF1F6;
   --bright-blue: rgb(218, 235, 255);
   --font-color: #000;
@@ -419,11 +420,11 @@ body {
   }
   .spacer3{
     /* background-color: var(--secondaryColor); */
-    height: 2.5vw;
+    height: 5vh;
   }
   .spacer4{
     /* background-color: var(--secondaryColor); */
-    height: 3vw;
+    height: 3vh;
   }
   .spacer5{
     /* background-color: var(--secondaryColor); */
@@ -436,10 +437,20 @@ body {
   }
 
   .left-title{
-    padding-left: 5%;
+    /* padding-left: 5%; */
+    width: 100%;
+    text-align: center;
     font-family: headerFont, sans-serif;
     font-weight: 700;
     font-size: 3rem;
+  }
+  .left-subtitle{
+    /* width: 85%;
+    padding-left: 5%; */
+    width: 100%;
+    text-align: center;
+    font-family: subHeaderFont, sans-serif;
+    font-size: 1.25rem;
   }
   
   .underline{
@@ -455,12 +466,7 @@ body {
     border-bottom: 3px solid var(--egg-white);
   }
 
-  .left-subtitle{
-    width: 85%;
-    padding-left: 5%;
-    font-family: subHeaderFont, sans-serif;
-    font-size: 1.25rem;
-  }
+
 
   .contact{
     background-color: var(--secondaryColor);
@@ -477,6 +483,11 @@ body {
 
   .dark{
     background-color: var(--fourthColor);
+  }
+  .darker{
+    background-color: var(--fifthColor);
+    color: var(--egg-white);
+    padding-top: 5%;;
   }
 
   .text-white{
