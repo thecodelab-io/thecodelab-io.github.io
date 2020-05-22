@@ -45,6 +45,7 @@ body {
   src: url(assets/fonts/Poppins-Medium.ttf);
 }
 
+
   
 /*--------------------------------------------------------------
 # Header
@@ -387,7 +388,7 @@ body {
 --------------------------------------------------------------*/
 
   .mainHeader{
-    font-size: 8vw;
+    font-size: 5rem;
     font-family: headerFont, sans-serif;
     padding-top: 5rem;
     width: 100%;
@@ -437,18 +438,20 @@ body {
   }
 
   .left-title{
-    /* padding-left: 5%; */
+    padding-left: 5%;
+    text-align: left;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     font-family: headerFont, sans-serif;
     font-weight: 700;
     font-size: 3rem;
   }
   .left-subtitle{
-    /* width: 85%;
-    padding-left: 5%; */
+    /* width: 85%;*/
+    padding-left: 5%; 
+    text-align: left;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     font-family: subHeaderFont, sans-serif;
     font-size: 1.25rem;
   }
@@ -509,7 +512,7 @@ body {
     padding-top: 1rem;
   }
   .services{
-    padding-top: 2%;
+    padding-top: 3%;
   }
   .portfolio{
     height: 50vh;
@@ -521,4 +524,13 @@ body {
   
   .indicator{
     padding-top: 20%;
+  }
+
+  @media screen and (max-width: 800px){
+    .mainHeader{
+      font-size: 10vw;
+    }
+    .subHeader{
+      font-size: 5vw;
+    }
   }
