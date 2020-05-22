@@ -6,9 +6,10 @@
   --mainBackground: #c8d6e5;
   --mainHeaderColor: #000;
   --navBarFont: #a7c5eb;
-  --navBarColor: #23313f;
+  --navBarColor: #2e3f52;
   --secondaryColor: #b4c1ce;
   --thirdColor: #dee6ef;
+  --fourthColor: #35495e;
 }
 
 body {
@@ -432,7 +433,7 @@ body {
   }
 
   .left-subtitle{
-    width: 80%;
+    width: 85%;
     padding-left: 5%;
     font-family: subHeaderFont, sans-serif;
     font-size: 1.25rem;
