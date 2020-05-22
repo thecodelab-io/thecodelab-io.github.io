@@ -440,6 +440,7 @@ body {
 
   .contact{
     background-color: var(--secondaryColor);
+    min-height: 20vh;
   }
 
   .bright{
