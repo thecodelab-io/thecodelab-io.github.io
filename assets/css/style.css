@@ -439,7 +439,7 @@ body {
     padding-left: 5%;
     font-family: headerFont, sans-serif;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 3rem;
   }
   
   .underline{
@@ -459,7 +459,7 @@ body {
     width: 85%;
     padding-left: 5%;
     font-family: subHeaderFont, sans-serif;
-    font-size: 2vw;
+    font-size: 1.25rem;
   }
 
   .contact{
