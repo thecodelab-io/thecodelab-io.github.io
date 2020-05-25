@@ -579,8 +579,9 @@ body {
     width: 100%;
   }
   .video-demo{
-    height: auto;
     width: 75%;
+    height:auto;
+    min-height: 50vh;
     background-color: black;
   }
   .portfolio-text{
