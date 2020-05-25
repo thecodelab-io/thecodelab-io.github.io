@@ -581,6 +581,7 @@ body {
   .video-demo{
     height: auto;
     width: 75%;
+    background-color: black;
   }
   .portfolio-text{
     font-weight: 800;
