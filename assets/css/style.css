@@ -579,10 +579,16 @@ body {
     width: 100%;
   }
   .video-demo{
-    width: 75%;
+    width: 85%;
     height:auto;
     min-height: 75vh;
+    max-width: 150vh;
     background-color: black;
+  }
+  @media screen and (max-width: 800px){
+   .video-demo{
+     min-height: 50vw;
+   }
   }
   .portfolio-text{
     font-weight: 800;
