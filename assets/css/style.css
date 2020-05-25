@@ -27,6 +27,7 @@
   --egg-white: #EDF1F6;
   --bright-blue: rgb(218, 235, 255);
   --font-color: #000;
+  --electric-blue: #85d0ff;
 }
 
 body {
@@ -414,13 +415,17 @@ body {
 /*--------------------------------------------------------------
 # Header Font Animation
 --------------------------------------------------------------*/
-  .spacer1{
+  .spacer{
     /* background-color: var(--secondaryColor); */
     height: 20vh;
   }
-  .spacer2{
+  .spacer1{
     /* background-color: var(--secondaryColor); */
     height: 15vh;
+  }
+  .spacer2{
+    /* background-color: var(--secondaryColor); */
+    height: 10vh;
   }
   .spacer3{
     /* background-color: var(--secondaryColor); */
@@ -432,7 +437,7 @@ body {
   }
   .spacer5{
     /* background-color: var(--secondaryColor); */
-    height: 1rem;
+    height: 2vh;
   }
 
   .regular{
@@ -569,17 +574,17 @@ body {
   .portfolio-item{
     font-family: subHeaderFont, sans-serif;
   }
-
-  .item-video{
-    height:300px;
-    width: auto;
+  .portfolio-video{
+    padding-left: 5%;
+    width: 100%;
+  }
+  .video-demo{
+    height: auto;
+    width: 75%;
   }
   .portfolio-text{
     font-weight: 800;
-  }
-
-  video{
-    background-color: var(--fourthColor);
+    padding-left: 5%;
   }
 
   .owl-dots{
@@ -589,4 +594,15 @@ body {
   .owl-carousel{
     background-color: var(--fourthColor);
     align-self: center;
+  }
+
+  .link{
+    text-decoration: none;
+    color: var(--egg-white);
+  }
+
+  .link:hover{
+    text-decoration: none;
+    color: var(--electric-blue);
+    transition: ease-in-out 0.5s;
   }
