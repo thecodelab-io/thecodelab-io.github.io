@@ -18,8 +18,8 @@
   --mainBackground: #c8d6e5;
   --mainHeaderColor: #000;
   --babyBlue: #a7c5eb;
-  --navBarColor: #2e3f52;
-  --navBarColor: var(--fourthColor);
+  /* --navBarColor: #2e3f52; */
+  --navBarColor: var(--mainBackground);
   --secondaryColor: #b4c1ce;
   --thirdColor: #dee6ef;
   --fourthColor: #35495e;
@@ -60,8 +60,18 @@ body {
   }
   
   #header.header-scrolled {
-    background: var(--navBarColor);
+    background: var(--fourthColor);
     height: 2.75rem;
+    color: #fff;
+  }
+  #header.header-scrolled a{
+    color: #fff;
+  }
+  #header.header-scrolled :active a{
+    color: #fff;
+  }
+  #header.header-scrolled .nav-menu > ul > li > a:before{
+    background-color: #fff;
   }
   
   #header .logo h1 {
@@ -168,7 +178,7 @@ body {
   .nav-menu a {
     display: block;
     position: relative;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     padding: 10px 0 10px 25px;
     transition: 0.3s;
     font-size: 15px;
@@ -183,7 +193,7 @@ body {
     height: 2px;
     bottom: 3px;
     left: 25px;
-    background-color: var(--babyBlue);
+    background-color: var(--mainHeaderColor);
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -195,7 +205,7 @@ body {
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: var(--babyBlue);
+    color: var(--mainHeaderColor);
     text-decoration: none;
   }
   
@@ -329,7 +339,7 @@ body {
   }
   
   .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-    color: var(--babyBlue);
+    color: var(--egg-white);
     text-decoration: none;
   }
   
@@ -390,6 +400,9 @@ body {
 
   .headerContainer{
     min-height: 100vh;
+    /* background-image: url("../img/bg.jpg");
+    background-size: cover; */
+    width: 100%;
   }
   .mainHeader{
     font-size: 5rem;
