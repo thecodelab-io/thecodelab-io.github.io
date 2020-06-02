@@ -667,7 +667,7 @@ body {
 
   .wrapper2 {
     /* padding: 8rem 0 2rem 0 ; */
-    position: relative;
+    /* position: relative; */
     /* z-index: 1;  */
   }
     /* @media screen and (max-width: 1280px) {
@@ -687,7 +687,7 @@ body {
       background-image: url(../img/bg.jpg);
       background-size: cover;
       background-repeat: no-repeat;
-      background-attachment: fixed;
+      background-attachment: local;
       display: block;
       position: fixed;
       left: 0;
