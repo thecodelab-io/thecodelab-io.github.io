@@ -160,6 +160,7 @@
     $('.venobox').venobox();
   });
 
+
   // portfolio carousel (uses the Owl Carousel library)
   $(".portfolio-carousel").owlCarousel({
     // autoplay: true,
@@ -171,6 +172,7 @@
     mouseDrag: true,
     touchDrag: true,
   });
+
 
   // Initi AOS
   AOS.init({
