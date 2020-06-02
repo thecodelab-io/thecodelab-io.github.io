@@ -19,7 +19,7 @@
   --mainHeaderColor: #000;
   --babyBlue: #a7c5eb;
   /* --navBarColor: #2e3f52; */
-  --navBarColor: var(--mainBackground);
+  --navBarColor: transparent;
   --secondaryColor: #b4c1ce;
   --thirdColor: #dee6ef;
   --fourthColor: #35495e;
