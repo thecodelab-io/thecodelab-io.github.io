@@ -588,17 +588,15 @@ body {
     border: none;
     border-radius: 20px;
     padding: 1rem;
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
     font-size: 1.25rem;
     box-shadow: 0px 0px 15px rgba(127, 137, 161, 0.3);
   }
   @media screen and (max-width: 800px){
     .portfolio-link{
-      /* color: #fff;
+      color: #fff;
       background-color: var(--fourthColor);
       border: none;
-      border-radius: 20px; */
+      border-radius: 20px;
       padding: 2vw;
       padding-left: 4vw;
       padding-right: 4vw;
