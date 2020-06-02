@@ -591,6 +591,11 @@ body {
     font-size: 1.25rem;
     box-shadow: 0px 0px 15px rgba(127, 137, 161, 0.3);
   }
+
+  .portfolio-link:hover{
+    color: #fff;
+    text-decoration: none;
+  }
   @media screen and (max-width: 800px){
     .portfolio-link{
       color: #fff;
@@ -600,7 +605,7 @@ body {
       padding: 2vw;
       padding-left: 4vw;
       padding-right: 4vw;
-      font-size: 3vw;
+      font-size: 1.25rem;
       box-shadow: 0px 0px 15px rgba(127, 137, 161, 0.3);
     }
   }
